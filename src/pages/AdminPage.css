@@ -1,0 +1,55 @@
+.admin-page {
+    max-width: 1000px;
+    margin: auto;
+    padding: 20px;
+  }
+  
+  .card-title {
+    font-size: 1.2rem;
+  }
+  
+  .form-label {
+    font-size: 0.9rem;
+  }
+  
+  .form-control {
+    font-size: 0.9rem;
+  }
+  
+  .product-list, .order-list {
+    padding-left: 0;
+    list-style-type: none;
+  }
+  
+  .product-item, .order-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .product-image {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    margin-right: 10px;
+  }
+  
+  .spinner-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+  }
+  
+  .alert {
+    font-size: 0.9rem;
+    padding: 10px;
+  }
+  
+  button {
+    font-size: 0.9rem;
+    padding: 5px 10px;
+  }
+  
